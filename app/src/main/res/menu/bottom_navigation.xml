@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/nav_gallery"
+        android:icon="@drawable/ic_nav_gallery"
+        android:title="@string/text_nav_gallery" />
+
+    <item
+        android:id="@+id/nav_wallpapers"
+        android:icon="@drawable/ic_nav_wallpapers"
+        android:title="@string/text_nav_wallpapers"/>
+
+
+    <item
+        android:id="@+id/nav_settings"
+        android:icon="@drawable/ic_nav_settings"
+        android:title="@string/text_nav_settings" />
+
+</menu>

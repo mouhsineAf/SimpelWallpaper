@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bg_main"
+    tools:context=".fragment.GalleryFragment">
+
+    <RelativeLayout
+        android:id="@+id/layout_top"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        >
+        <RelativeLayout
+            android:id="@+id/layout_search"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_centerVertical="true"
+            android:background="@drawable/bg_search">
+            <ImageView
+                android:id="@+id/image_search"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:layout_marginStart="0dp"
+                android:padding="17dp"
+                android:src="@drawable/ic_search"
+                app:tint="@color/grey_20" />
+
+            <EditText
+                android:id="@+id/editTextSearch"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_toEndOf="@+id/image_search"
+                android:gravity="center_vertical"
+                android:hint="@string/text_search"
+                android:textColor="@color/grey_10"
+                android:textColorHint="@color/grey_20"
+                android:textSize="18sp" />
+        </RelativeLayout>
+
+        <include
+            android:id="@+id/toolbar_recycle"
+            layout="@layout/custom_toolbar_select"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewGallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_top"
+        android:layout_marginTop="5dp"
+        android:visibility="visible"
+        tools:listitem="@layout/card_gallery" />
+
+    <LinearLayout
+        android:id="@+id/layout_no_gallery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="visible"
+        android:gravity="center"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/ic_no_gallery"
+            android:padding="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/text_no_gallery"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="@color/grey_20"
+            android:textAllCaps="true"/>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/layout_snack_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>

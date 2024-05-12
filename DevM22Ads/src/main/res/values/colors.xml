@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+
+    <color name="grey_5">#f2f2f2</color>
+    <color name="grey_10">#F7F6F6</color>
+    <color name="grey_20">#cccccc</color>
+    <color name="grey_40">#999999</color>
+    <color name="grey_60">#666666</color>
+    <color name="grey_80">#37474F</color>
+    <color name="grey">#757171</color>
+
+
+    <color name="colorBtnNative">#22577A</color>
+
+    <color name="colorGreyLight">#ACAFC3</color>
+    <color name="colorGreyLighter">#F3F4F6</color>
+    <color name="colorGreyDarker">#666C8E</color>
+
+
+</resources>

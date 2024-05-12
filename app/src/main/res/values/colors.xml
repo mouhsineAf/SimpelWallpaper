@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2A2E43</color>
+    <color name="colorPrimaryDark">#665EFF</color>
+    <color name="colorAccent">#2A2E43</color>
+
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+    <color name="color_progress_background">#5B6B78</color>
+    <color name="color_yalow">#ffb703</color>
+    <color name="color_bg_download">#F44336</color>
+
+    <color name="color_green">#25C685</color>
+    <color name="color_green2">#2AA62F</color>
+
+    <color name="color_blue">#029AFD</color>
+    <color name="color_blue2">#2AA62F</color>
+    <color name="color_red_start_btn">#FB383A</color>
+    <color name="color_bg_start">#9E2A2E43</color>
+    <color name="color_bg_btn_start">#3ACCE1</color>
+    <color name="color_bg_btn_share">#353A50</color>
+    <color name="color_bg_nav">#353A50</color>
+
+
+    <color name="colorSelectGallery">#7C7E7E7E</color>
+    <color name="colorRed">#FF464F</color>
+
+</resources>
