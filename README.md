@@ -6,7 +6,7 @@ FacebookAd, AdColony, ChartBoost and Vungle.
 If you could help me to continue maintain this repo, buying me a cup of coffee, it will show that my effort is worthed.
 
 
-[!["Buy Me A Coffee"](https://github.com/mouhsineAf/SimpelWallpaper/blob/38f07aab0b4a6a652b1dc3ed44f0f9040fccfd15/app/src/main/res/drawable/ic_buy_for_me.jpg)](https://buymeacoffee.com/devm22)
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/devm22)
 
 
 
