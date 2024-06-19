@@ -13,9 +13,9 @@ FacebookAd, AdColony, ChartBoost and Vungle.
 {
   "config" : {
 
-    "ModeAdsBanner" : "max",
-    "ModeAdsInterstitial" : "0",
-    "ModeAdsNative" : "max",
+    "ModeAdsBanner" : "admob",
+    "ModeAdsInterstitial" : "admob",
+    "ModeAdsNative" : "admob",
 
     "admob" : {
       "AdmobBannerUnitId" : "ca-app-pub-3940256099942544/6300978111",
@@ -78,35 +78,35 @@ FacebookAd, AdColony, ChartBoost and Vungle.
 
  "wallpapers" : [
       {
-      "wallpaper_image" : "https://telegra.ph/file/fe3fa00582e8eac8cd0b3.jpg",
+      "wallpaper_image" : "https://github.com/mouhsineAf/SimpelWallpaper/blob/master/screens/Screenshot_20240619_135402.png",
       "wallpaper_name" : "Car one"
       },
       {
-      "wallpaper_image" : "https://telegra.ph/file/5fcb247611e7872e7c8dc.jpg",
+      "wallpaper_image" : "https://github.com/mouhsineAf/SimpelWallpaper/blob/master/screens/Screenshot_20240619_135402.png",
       "wallpaper_name" : "Car two"
       },
       {
-      "wallpaper_image" : "https://telegra.ph/file/161b1f533247160d4d662.jpg",
+      "wallpaper_image" : "https://github.com/mouhsineAf/SimpelWallpaper/blob/master/screens/Screenshot_20240619_135402.png",
       "wallpaper_name" : "Car three"
       },      
       {
-      "wallpaper_image" : "https://telegra.ph/file/4776703be7354f53c00a5.jpg",
+      "wallpaper_image" : "https://github.com/mouhsineAf/SimpelWallpaper/blob/master/screens/Screenshot_20240619_135402.png",
       "wallpaper_name" : "test"
       },      
       {
-      "wallpaper_image" : "https://telegra.ph/file/690fad44fe2067a8d27cd.jpg",
+      "wallpaper_image" : "https://github.com/mouhsineAf/SimpelWallpaper/blob/master/screens/Screenshot_20240619_135402.png",
       "wallpaper_name" : "test2"
       },      
       {
-      "wallpaper_image" : "https://telegra.ph/file/8c1625eeb7f0e1d08cb8d.jpg",
+      "wallpaper_image" : "https://github.com/mouhsineAf/SimpelWallpaper/blob/master/screens/Screenshot_20240619_135402.png",
       "wallpaper_name" : "test2"
       },      
       {
-      "wallpaper_image" : "https://telegra.ph/file/5d940063f9c8c2860102e.jpg",
+      "wallpaper_image" : "https://github.com/mouhsineAf/SimpelWallpaper/blob/master/screens/Screenshot_20240619_135402.png",
       "wallpaper_name" : "test3"
       },      
       {
-      "wallpaper_image" : "https://telegra.ph/file/b8a43ab3878d04eaa9223.jpg",
+      "wallpaper_image" : "https://github.com/mouhsineAf/SimpelWallpaper/blob/master/screens/Screenshot_20240619_135402.png",
       "wallpaper_name" : "test4"
       }
   ]
